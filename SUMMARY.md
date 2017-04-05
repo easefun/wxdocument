@@ -1,6 +1,6 @@
 # 网校API目录
 
-* [说明](instruction.md)
+* [说明](Introduction.md)
 * [所有接口校验规则](rule.md)
 * [课程分类](chapter/class_cata.md)
 * [课程搜索](chapter/class_search.md)
