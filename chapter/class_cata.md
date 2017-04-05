@@ -1,35 +1,22 @@
 #课程分类
 
-* getCategories
-* 作用：获取整个网校的课程分类信息，返回结果以树型结构呈现
-* URL
-    http://api.wx.net/category/get-all
-* 支持格式
-    JSON 或 TEXT/HTML
-* HTTP请求方式
-    GET/POST
+* 作用： 获取整个网校的课程分类信息，返回结果以树型结构呈现
+* URL： http://{网校域名}/category/get-all
+* 支持格式： JSON 或 TEXT/HTML
+* HTTP请求方式： GET/POST
 * 请求参数
 
 | 参数名       | 必选  | 类型及范围 | 说明 |
 | ----------- | ----- | -------- | -----|
 | userId      | true  | string   |用户ID |
-| appId       | true  | string   |appID |
 | timestamp   | true  | string   |当前时间戳|
 |sign         |true|string |签名|
-
-* http请求头参数:
-
-| 参数名	  | 必选	   | 类型及范围	| 说明 |
-| ------- | ------ | ---------  |------|
-|X-School|	false|	string|	网校ID|
-|X-Domain|	false|	string|	网校域名|
 
 * 注意事项
   * 返回错误列表
 
 | 返回响应代码 | 说明     |
 |----------- | -------- |
-|400         | appId为空 |
 |400         | 非法时间戳 |
 |400         |	找不到API|
 |400         |	找不到用户|
@@ -103,7 +90,7 @@
    .......
   ]
 }
-`````
+````
 
 * 字段说明
 
