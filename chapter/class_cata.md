@@ -28,13 +28,13 @@
   * 返回错误列表
 
          | 返回响应代码|说明|
-|----
-|400|	appId为空
-|400|	非法时间戳
-|400|	找不到API
-|400|	找不到用户
-|403|	签名错误
-|200|	查询成功
+         |----|---|
+         |400|	appId为空|
+         |400|	非法时间戳|
+         |400|	找不到API|
+         |400|	找不到用户|
+         |403|	签名错误|
+         |200|	查询成功|
 * 返回结果
  * 安全校验错误结果返回Text/Html
 
@@ -106,13 +106,13 @@
 
 * 字段说明
 
-|字段|说明
-|
-|code|	响应代码
-|status|	响应状态
-|message|	响应信息
-|data|	返回数据
-|data[index].categoryId|	分类ID
-|data[index].name|	分类标题
-|data[index].depth|	深度
-|data[index].subCategory|	子分类
+|字段|说明|
+|---|---|
+|code|	响应代码|
+|status|	响应状态|
+|message|	响应信息|
+|data|	返回数据|
+|data[index].categoryId|	分类ID|
+|data[index].name|	分类标题|
+|data[index].depth|	深度|
+|data[index].subCategory|	子分类|
