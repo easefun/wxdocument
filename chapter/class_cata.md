@@ -1,8 +1,8 @@
 #课程分类
 
-* 作用： 获取整个网校的课程分类信息，返回结果以树型结构呈现
-* URL： http://{网校域名}/category/get-all
-* 支持格式： JSON 或 TEXT/HTML
+* 功能： 获取整个网校的课程分类信息，返回结果以树型结构呈现
+* URL： http://{网校域名}/api/category/get-all
+* Content-Type: application/json（校验失败：text/html）
 * HTTP请求方式： GET/POST
 * 请求参数
 
@@ -23,35 +23,8 @@
 |403         |	签名错误  |
 |200         |	查询成功  |
 
-* 返回结果
- * 安全校验错误结果返回Text/Html
-
-````
-<html>
-  <head>
-  <title>Apache Tomcat/7.0.59 - Error report</title>
-  </head>
-  <body>
-    <h1>HTTP Status 400 - invalid timestamp.</h1>
-    <HR size="1" noshade="noshade">
-    <p>
-       <b>type</b> Status report
-    </p>
-    <p>
-       <b>message</b> <u>invalid timestamp.</u>
-    </p>
-    <p>
-       <b>description</b> <u>The request sent by the client was
-           syntactically incorrect.</u>
-    </p>
-    <HR size="1" noshade="noshade">
-    <h3>Apache Tomcat/7.0.59</h3>
-  </body>
- </html>
-````
 
 * JSON示例
-  * 操作结果返回json
 
 ````
 {"code": "200",
