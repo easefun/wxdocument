@@ -1,8 +1,7 @@
-```
-网校API目录
-```
+# Summary
 
-* [说明](Introduction.md)
+* [网校云](README.md)
+* [API文档说明](Introduction.md)
 * [课程分类](chapter/class_cata.md)
 * [课程搜索](chapter/class_search.md)
 * [课程信息](chapter/class_info.md)
@@ -15,6 +14,4 @@
 * [密码修改](chapter/pwd_update.md)
 * [修改用户基本信息](chapter/profile_update.md)
 * [获取用户信息](chapter/profile.md)
-
-
 
