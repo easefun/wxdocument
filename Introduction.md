@@ -1,6 +1,8 @@
 # API文档说明 
 
-* 每个接口除本身需要提交参数外，还要另外提交两个参数用于接口校验：
+* 开发者使用网校API需要事先申请开通网校并获得开发者账号 [申请开通网校](http://www.wangxiaoyun.net/)
+
+* 接口鉴权方式：每个接口除本身需要提交参数外，还要另外提交两个参数用于接口校验
 
   * 需要的参数：
 
@@ -19,23 +21,11 @@
     ```
     <html>
     <head>
-        <title>Apache Tomcat/7.0.59 - Error report</title>
+        <title>Error report</title>
     </head>
     <body>
       <h1>HTTP Status 400 - invalid timestamp.</h1>
-      <HR size="1" noshade="noshade">
-      <p>
-         <b>type</b> Status report
-      </p>
-      <p>
-         <b>message</b> <u>invalid timestamp.</u>
-      </p>
-      <p>
-         <b>description</b> <u>The request sent by the client was
-             syntactically incorrect.</u>
-      </p>
-      <HR size="1" noshade="noshade">
-      <h3>Apache Tomcat/7.0.59</h3>
+
     </body>
     </html>
     ```
