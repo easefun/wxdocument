@@ -122,17 +122,17 @@ JSON示例
 | data\[index\].status | 课程状态 |
 | data\[index\].userId | 课程创建者用户Id |
 
-	
+| data\[index\].createdTime | 课程创建时间 |
+| data\[index\].publishedTime | 课程发布时间 |
+| data\[index\].lastModified | 课程最近修改时间 |
+| data\[index\].studentCount | 学员总数 |
+| data\[index\].reviewCount | 评论数据 |
 
-	createdTime: 1475310831000,
-	publishedTime: null,
-	lastModified: 1492149794000,
-	studentCount: 12,
-	reviewCount: 0,
-	ratingScore: 0,
-	categoryName: "语文",
-	teacherId: "iv38g5ck",
-	teacherName: "gg",
-	teacherAvatar: "https://res.wangxiaoyun.net/assets/images/avatars/10avatar.jpg",
-	channelPasswd: "",
-	description: "<p>课程介绍</p>"
+| data\[index\].ratingScore | 平均评分 |
+| data\[index\].categoryName | 分类名称 |
+| data\[index\].teacherId | 主讲老师ID |
+| data\[index\].teacherName | 主讲老师名称 |
+| data\[index\].teacherAvatar | 主讲老师头像 |
+
+| data\[index\].channelPasswd | 直播频道号密码 |
+| data\[index\].description | 课程详情 |
