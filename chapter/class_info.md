@@ -8,10 +8,9 @@
 
 |参数名|	必选|	类型及范围|	说明|
 |-----|----|------------|-----|
-|userId|	true|	string|	用户ID|
-|timestamp|	true|	string|	当前的时间戳|
+|timestamp|	true|	long|	当前的时间戳|
 |sign|	true|	string|	签名|
-|courseId|	true|	string|	课程ID|
+|courseId|	true|	long|	课程ID|
 
 * 注意事项
 	* 返回错误列表
@@ -20,7 +19,7 @@
 |-----------|---|
 |400|	非法时间戳|
 |400|	找不到API|
-|400|	找不到用户|
+|400|	找不到课程|
 |403|	签名错误|
 |200|	查询成功|
 
