@@ -71,17 +71,6 @@
 | message | 响应信息 |
 | data | 返回数据 |
 | data\[index\].categoryId | 分类ID |
-| data\[index\].schoolId | 网校ID |
-| data\[index\].parentId | 父分类ID |
-| data\[index\].lft | 分类左节点 |
-| data\[index\].rgt | 分类右节点 |
-| data\[index\].name | 分类名称 |
-| data\[index\].description | 分类描述 |
-| data\[index\].icon | 分类图标 |
-| data\[index\].createdTime | 创建时间 |
-| data\[index\].lastModified | 最近修改时间 |
-| data\[index\].depth | 分类节点深度 |
-| data\[index\].courseCount | 总课程数 |
 
 
 
