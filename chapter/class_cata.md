@@ -71,7 +71,6 @@
 | message | 响应信息 |
 | data | 返回数据 |
 | data\[index\].categoryId | 分类ID |
-
 | data\[index\].schoolId | 网校ID |
 | data\[index\].parentId | 父分类ID |
 | data\[index\].lft | 分类左节点 |
