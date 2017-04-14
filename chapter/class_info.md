@@ -71,7 +71,7 @@ JSON示例
 	categoryName: "语文",
 	teacherId: "iv38g5ck",
 	teacherName: "gg",
-	teacherAvatar: "https://res.wangxiaoyun.net/image/220x220//resources/images/avatars/28avatar.jpg",
+	teacherAvatar: "https://res.wangxiaoyun.net/assets/images/avatars/10avatar.jpg",
 	channelPasswd: "",
 	description: "<p>课程介绍</p>"
   }
