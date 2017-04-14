@@ -88,8 +88,8 @@ JSON示例
 |data|	返回数据|
 
 | data\[index\].courseId | 课程ID |
-| data\[index\].courseType | 课程类型 |
-| data\[index\].courseMeth | 上课方式 |
+| data\[index\].courseType | 课程类型，OPEN_VOD（点播公开课）、OPEN_LIVE（直播公开课）、VIP（VIP课程） |
+| data\[index\].courseMeth | 上课方式，VOD（视频点播）、LIVE（视频直播）、VIP（VIP） |
 | data\[index\].categoryId | 分类ID |
 | data\[index\].schoolId | 网校ID |
 | data\[index\].title | 课程标题 |
