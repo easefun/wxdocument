@@ -26,41 +26,38 @@
 
 ```
 {
-  "code": "200",
-  "status": "success",
-  "message": "",
-  "data":[
-    {
-      "categoryId": "分类ID",
-      "schoolId": "网校ID",
-      "parentId": "父分类Id",
-      "lft": "左节点",
-      "rgt": "右节点",
-      "name": "分类标题",
-      "description": "分类描述",
-      "icon": "分类图标",
-      "createdTime": "创建时间",
-      "lastModified": "上次修改时间",
-      "depth": "分类节点深度",
-      "courseCount": "分类总课程数"
-    },
-
-   {"categoryId": "分类ID",
-    "name": "分类标题",
-    "depth": "深度",
-   "subCategory": [{"categoryId": "分类ID",
-               "name": "分类标题",
-               "depth": "深度",
-               "subCategory": [{...},{...}...{...}],
-               ...
-               "categoryId": "分类ID",
-               "name": "分类标题",
-               "depth": "深度",
-               "subCategory": [{...},{...}...{...}]
-                    }]
-   }
-
-   .......
+  code: 200,
+  status: "success",
+  message: "",
+  data: [
+  {
+    categoryId: 63,
+    schoolId: "demo",
+    parentId: 0,
+    lft: 1,
+    rgt: 6,
+    name: "课程分类",
+    description: "课程的默认分类",
+    icon: null,
+    createdTime: 1481685178000,
+    lastModified: 1481685178000,
+    depth: 0,
+    courseCount: 28
+  },
+  {
+    categoryId: 64,
+    schoolId: "demo",
+    parentId: 1,
+    lft: 2,
+    rgt: 5,
+    name: "文科",
+    description: "这里是文科",
+    icon: "",
+    createdTime: 1481685378000,
+    lastModified: 1492142051000,
+    depth: 1,
+    courseCount: 0
+  }
   ]
 }
 ```
