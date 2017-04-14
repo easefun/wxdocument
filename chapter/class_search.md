@@ -8,11 +8,11 @@
 
 |参数名|	必选|	类型及范围|	说明|
 |-----|----|------------|-------|
-|timestamp|	true|	string|	当前的时间戳|
+|timestamp|	true|	long|	当前的时间戳|
 |sign	|true|	string	|签名|
 |keyword|	true|	string	|关键字|
-|start	|true|	string|	开始点|
-|end|	true	|string|	结束点|
+|start	|true|	int|	开始点|
+|end|	true	|int|	结束点|
 
 * 注意事项
 	* 返回错误列表
