@@ -7,10 +7,10 @@
 
 |参数名|	必选|	类型及范围|	说明|
 |--|--|--|--|
-|userId|	true|	string|	用户ID|
-|timestamp|	true|	string|	当前的时间戳|
-|sign|	true	|string	|签名|
-|courseId	|false	|string	|课程ID|
+| userId | true | string | 用户ID |
+| timestamp | true | long | 当前的时间戳 |
+| sign|true | string | 签名 |
+| courseId | false | long	| 课程ID |
 
 
 * 注意事项
