@@ -30,34 +30,34 @@
   status: "success",
   message: "",
   data: [
-  {
-    categoryId: 63,
-    schoolId: "demo",
-    parentId: 0,
-    lft: 1,
-    rgt: 6,
-    name: "课程分类",
-    description: "课程的默认分类",
-    icon: null,
-    createdTime: 1481685178000,
-    lastModified: 1481685178000,
-    depth: 0,
-    courseCount: 28
-  },
-  {
-    categoryId: 64,
-    schoolId: "demo",
-    parentId: 1,
-    lft: 2,
-    rgt: 5,
-    name: "文科",
-    description: "这里是文科",
-    icon: "",
-    createdTime: 1481685378000,
-    lastModified: 1492142051000,
-    depth: 1,
-    courseCount: 0
-  }
+    {
+      categoryId: 63,
+      schoolId: "demo",
+      parentId: 0,
+      lft: 1,
+      rgt: 6,
+      name: "课程分类",
+      description: "课程的默认分类",
+      icon: null,
+      createdTime: 1481685178000,
+      lastModified: 1481685178000,
+      depth: 0,
+      courseCount: 28
+    },
+    {
+      categoryId: 64,
+      schoolId: "demo",
+      parentId: 1,
+      lft: 2,
+      rgt: 5,
+      name: "文科",
+      description: "这里是文科",
+      icon: "",
+      createdTime: 1481685378000,
+      lastModified: 1492142051000,
+      depth: 1,
+      courseCount: 0
+    }
   ]
 }
 ```
