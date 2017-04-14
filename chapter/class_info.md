@@ -56,7 +56,7 @@ JSON示例
 	recommendTime: 1478167919000,
 	isBarrageEnabled: "Y",
 	isTickerEnabled: "Y",
-	tickerContent: "233",
+	tickerContent: "微网校",
 	isRoyaltyEnabled: "N",
 	channelId: 0,
 	channelSecretkey: null,
