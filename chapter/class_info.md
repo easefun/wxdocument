@@ -86,7 +86,6 @@ JSON示例
 |status|	响应状态|
 |message|	响应信息|
 |data|	返回数据|
-
 | data\[index\].courseId | 课程ID |
 | data\[index\].courseType | 课程类型，OPEN_VOD（点播公开课）、OPEN_LIVE（直播公开课）、VIP（VIP课程） |
 | data\[index\].courseMeth | 上课方式，VOD（视频点播）、LIVE（视频直播）、VIP（VIP） |
@@ -98,7 +97,6 @@ JSON示例
 | data\[index\].keyword1 | 课程关键词1 |
 | data\[index\].keyword2 | 课程关键词2 |
 | data\[index\].keyword3 | 课程关键词3 |
-
 | data\[index\].objectives | 教学目标 |
 | data\[index\].audiences | 目标学员 |
 | data\[index\].requirements | 学习要求 |
@@ -109,30 +107,25 @@ JSON示例
 | data\[index\].validity | 学习有效期，单位：天 |
 | data\[index\].isFree | 是否免费，Y（免费）、N（收费） |
 | data\[index\].isFreeVip | 是否对VIP会员免费，Y（免费）、N（收费） |
-
 | data\[index\].isRecommend | 是否推荐，Y（推荐）、N（不是推荐） |
 | data\[index\].recommendTime | 推荐时间 |
 | data\[index\].isBarrageEnabled | 是否开启弹幕，Y（开启）、N（关闭） |
 | data\[index\].isTickerEnabled | 是否开启跑马灯功能，Y（开启）、N（关闭） |
 | data\[index\].tickerContent | 跑马灯内容模板 |
-
 | data\[index\].isRoyaltyEnabled | 是否实施收入分成 |
 | data\[index\].channelId | 直播课程的频道ID |
 | data\[index\].channelSecretkey | 直播课程的SecretKey |
 | data\[index\].status | 课程状态 |
 | data\[index\].userId | 课程创建者用户Id |
-
 | data\[index\].createdTime | 课程创建时间 |
 | data\[index\].publishedTime | 课程发布时间 |
 | data\[index\].lastModified | 课程最近修改时间 |
 | data\[index\].studentCount | 学员总数 |
 | data\[index\].reviewCount | 评论数据 |
-
 | data\[index\].ratingScore | 平均评分 |
 | data\[index\].categoryName | 分类名称 |
 | data\[index\].teacherId | 主讲老师ID |
 | data\[index\].teacherName | 主讲老师名称 |
 | data\[index\].teacherAvatar | 主讲老师头像 |
-
 | data\[index\].channelPasswd | 直播频道号密码 |
 | data\[index\].description | 课程详情 |
