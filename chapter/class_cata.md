@@ -8,7 +8,7 @@
 
 | 参数名 | 必选 | 类型及范围 | 说明 |
 | --- | --- | --- | --- |
-| timestamp | true | string | 当前时间戳 |
+| timestamp | true | long | 当前时间戳 |
 | sign | true | string | 签名 |
 
 * 注意事项
