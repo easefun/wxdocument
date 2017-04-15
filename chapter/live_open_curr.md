@@ -7,7 +7,6 @@
 
 |参数名|	必选|	类型及范围|	说明|
 |----|----|----|----|
-| userId | true | string | 用户ID | 
 | timestamp | true | string | 当前的时间戳 |
 | sign | true | string | 签名 |
 | courseId | true | string | 课程ID |
@@ -26,13 +25,49 @@
 * JSON示例
 ````
 //查询成功
-{"code": "200",
-"status": "success",
-"message": "",
-"data":[{"curriculumType":"类别", "title":"章节名称或者课时名称" }, //类别可以是章节和课时
-       {"curriculumType":"类别", "title":"章节名称或者课时名称" },
-       ......
-       ]
+{
+  code: 200,
+  status: "success",
+  message: "",
+  data: [
+	{
+	  curriculumId: "174iz87rro7",
+	  curriculumType: "lecture",
+	  courseId: 174,
+	  schoolId: "test",
+	  title: "直播公开课",
+	  description: null,
+	  ordered: 1,
+	  startDate: 1488988800000,
+	  startTime: "17:04",
+	  endTime: "22:04",
+	  duration: 300,
+	  hasEndDate: "Y",
+	  endDate: 1488988800000,
+	  isRepeatWeek1: "N",
+	  isRepeatWeek2: "N",
+	  isRepeatWeek3: "N",
+	  isRepeatWeek4: "N",
+	  isRepeatWeek5: "N",
+	  isRepeatWeek6: "N",
+	  isRepeatWeek7: "N",
+	  hasFile: 0,
+	  fileid: null,
+	  filename: null,
+	  filesize: 0,
+	  fileurl: null,
+	  hasPlayback: "N",
+	  videoId: null,
+	  videoDuration: 0,
+	  status: "published",
+	  createdTime: 1487239118000,
+	  lastModified: 1489056470000,
+	  startTs: 1489050240000,
+	  endTs: 1489068240000,
+	  isRepeat: "N",
+	  videoCoverImage: ""
+	}
+  ]
 }
 ````
 
