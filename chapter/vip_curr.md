@@ -69,7 +69,7 @@ JSON示例
 	  curriculumId: "177j1lrs9me",
 	  curriculumType: "section",
 	  courseId: 177,
-	  schoolId: "test",
+	  schoolId: "demo",
 	  title: "章节一",
 	  description: null,
 	  ordered: 1,
