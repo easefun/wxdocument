@@ -85,12 +85,12 @@
 |data[index].title|课时标题|
 |data[index].description|课时简介|
 |data[index].ordered|排序序号，有小到大|
-|data[index].startDate|开始日期，yyyy/MM/dd|
+|data[index].startDate|开始日期，时间戳，yyyy/MM/dd|
 |data[index].startTime|开始时间，HH:mm|
 |data[index].endTime|预计结束时间，HH:mm|
 |data[index].duration|预计直播时长，单位：分钟|
 |data[index].hasEndDate|是否永不结束|
-|data[index].endDate|结束日期，yyyy/MM/dd|
+|data[index].endDate|结束日期，时间戳，yyyy/MM/dd|
 |data[index].isRepeatWeek1|是否周一重复，Y（是）、N（否）|
 |data[index].isRepeatWeek2|是否周二重复|
 |data[index].isRepeatWeek3|是否周三重复|
@@ -108,8 +108,8 @@
 |data[index].videoDuration|视频播放时长，单位：秒|
 |data[index].status|课时状态|
 |data[index].createdTime|课时创建时间|
-|data[index].lastModified|上次修改时间|
-|data[index].startTs|开始时长，yyyy/MM/dd/HH:mm:ss|
-|data[index].endTs|结束时间，yyyy/MM/dd/HH:mm:ss|
+|data[index].lastModified|上次修改时间，时间戳|
+|data[index].startTs|开始时长，时间戳，yyyy/MM/dd/HH:mm:ss|
+|data[index].endTs|结束时间，时间戳，yyyy/MM/dd/HH:mm:ss|
 |data[index].isRepeat|是否每周重复|
 |data[index].videoCoverImage|回放视频封面图|
