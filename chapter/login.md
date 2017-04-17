@@ -7,11 +7,10 @@
 
 |参数名|	必选|	类型及范围|	说明|
 |--|--|--|--|
-|userId	|true|	string|	用户ID|
-|timestamp|	true|	string	|当前的时间戳|
-|sign|	true|	string|	签名|
-|username	|true|	string	|登录帐户|
-|password	|true|	string|	登录密码(使用MD5加密过)|
+|timestamp|true|long|当前的时间戳|
+|sign|true|string|签名|
+|username|true|string|登录帐户|
+|password|true|string|登录密码(使用MD5加密)|
 
 * 注意事项
   * 返回错误列表
@@ -31,18 +30,20 @@
 
 ````
 //登录成功
-{"code": "200",
-"status": "success",
-"message": "登录成功",
-"data":null
+{
+  "code": "200",
+  "status": "success",
+  "message": "登录成功",
+  "data": "登录成功."
 }
 ````
 ````
 //登录失败
-{"code": "400",
-"status": "error",
-"message": "密码错误。",
-"data":null
+{
+  "code": "400",
+  "status": "error",
+  "message": "密码错误。",
+  "data": ""
 }
 ````
 
