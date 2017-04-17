@@ -39,7 +39,7 @@
 	  createdTime: 1478230795000,
 	  lastLoginTime: 1484104186000,
 	  occupation: "",
-	  isRecommend: "Y",
+	  isRecommend: "N",
 	  courseList: [ ]
 	}
   }
