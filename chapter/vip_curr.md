@@ -100,70 +100,52 @@ JSON示例
 |status|	响应状态|
 |message|	响应信息|
 |data|	返回数据|
-
-
-|data.vipLiveCurriculums|	vip直播课时|
-|data.vipLiveCurriculums[index].curriculumType|	vip直播类别|
-|data.vipLiveCurriculums[index].title|	vip直播章节或者课时名称，取决于类别|
-|data.vipVodCurriculums|	vip点播课时|
-|data.vipVodCurriculums[index].curriculumType|	vip点播类别|
-|data.vipVodCurriculums[index].title|	vip点播章节或者课时名称，取决于类别|
-
 |data.vipLiveCurriculums|VIP直播课时列表|
 |data.vipLiveCurriculums\[index\].curriculumId|课时ID|
 |data.vipLiveCurriculums\[index\].curriculumType|课时类型，section(章节)、lecture(课时)|
 |data.vipLiveCurriculums\[index\].termId|所属班期ID|
 |data.vipLiveCurriculums\[index\].courseId|直播课程ID|
 |data.vipLiveCurriculums\[index\].schoolId|网校ID|
-
 |data.vipLiveCurriculums\[index\].title|课时标题|
 |data.vipLiveCurriculums\[index\].description|课时简介|
 |data.vipLiveCurriculums\[index\].ordered|排序序号，由小到大|
 |data.vipLiveCurriculums\[index\].startKey|开始时间，yyyyMMdd/HH:mm|
 |data.vipLiveCurriculums\[index\].startDate|开始日期(时间戳)，yyyy/MM/dd|
 |data.vipLiveCurriculums\[index\].startTime|开始时间，HH:mm|
-
 |data.vipLiveCurriculums\[index\].endKey|预计结束日期，yyyyMMdd/HH:mm|
 |data.vipLiveCurriculums\[index\].endDate|预计结束日期(时间戳），yyyy/MM/dd|
 |data.vipLiveCurriculums\[index\].endTime|预计结束时间，HH:mm|
 |data.vipLiveCurriculums\[index\].duration|预计直播时长，单位：分钟|
 |data.vipLiveCurriculums\[index\].hasFile|是否有课时素材：0(没有)、1(有)|
 |data.vipLiveCurriculums\[index\].fileid|文件ID|
-
 |data.vipLiveCurriculums\[index\].filename|文件名|
 |data.vipLiveCurriculums\[index\].filesize|文件大小，单位：bytes|
 |data.vipLiveCurriculums\[index\].fileurl|下载链接|
 |data.vipLiveCurriculums\[index\].hasPlayback|是否有直播回放，Y(有)、N(没有)|
 |data.vipLiveCurriculums\[index\].videoId|直播回放的视频ID|
 |data.vipLiveCurriculums\[index\].videoDuration|视频播放时长，单位：秒|
-
 |data.vipLiveCurriculums\[index\].status|课时状态|
 |data.vipLiveCurriculums\[index\].createdTime|课时创建时间(时间戳)|
 |data.vipLiveCurriculums\[index\].lastModified|上次修改时间(时间戳)|
 |data.vipLiveCurriculums\[index\].startTs|开始时长(时间戳)，yyyy/MM/dd/HH:mm:ss|
 |data.vipLiveCurriculums\[index\].endTs|结束时间(时间戳)，yyyy/MM/dd/HH:mm:ss|
 |data.vipLiveCurriculums\[index\].videoCoverImage|回放视频封面图|
-
 |data.vipVodCurriculums|VIP点播课时列表|
-
 |data.vipLiveCurriculums\[index\].curriculumId|课时ID|
 |data.vipLiveCurriculums\[index\].curriculumType|课时类型，section(章节)、lecture(课时)|
 |data.vipLiveCurriculums\[index\].courseId|直播课程ID|
 |data.vipLiveCurriculums\[index\].schoolId|回放视频封面图|
 |data.vipLiveCurriculums\[index\].title|课时标题|
-
 |data.vipLiveCurriculums\[index\].description|课时简介|
 |data.vipLiveCurriculums\[index\].ordered|排序序号，由小到大|
 |data.vipLiveCurriculums\[index\].status|课时状态|
 |data.vipLiveCurriculums\[index\].isFree|是否免费|
 |data.vipLiveCurriculums\[index\].hasVideo|是否有课时素材：0(没有)、1(有)|
-
 |data.vipLiveCurriculums\[index\].videoId|直播回放的视频ID|
 |data.vipLiveCurriculums\[index\].videoDuration|视频播放时长，单位：秒|
 |data.vipLiveCurriculums\[index\].hasFile|是否有课时素材：0(没有)、1(有)|
 |data.vipLiveCurriculums\[index\].fileid|是否有课时素材：0(没有)、1(有)|
 |data.vipLiveCurriculums\[index\].filename|文件名|
-
 |data.vipLiveCurriculums\[index\].filesize|文件大小，单位：bytes|
 |data.vipLiveCurriculums\[index\].fileurl|下载链接|
 |data.vipLiveCurriculums\[index\].createdTime|课时创建时间(时间戳)|
