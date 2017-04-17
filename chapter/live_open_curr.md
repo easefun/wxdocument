@@ -1,5 +1,5 @@
 #直播公开课课时信息
-* 功能：根据课程ID，返回所有直播公开课的课时信息
+* 功能：根据课程ID，返回该直播公开课的所有课时信息
 * URL： http://{网校域名}/api/curriculum/live-open-curriculum
 * Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式：GET/POST
@@ -9,7 +9,7 @@
 |----|----|----|----|
 | timestamp | true | string | 当前的时间戳 |
 | sign | true | string | 签名 |
-| courseId | true | string | 课程ID |
+| courseId | true | long | 课程ID |
 
 * 注意事项
   * 返回错误列表
