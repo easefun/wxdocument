@@ -12,7 +12,7 @@
 |sign|	true|	string	签名|
 |nickname	|true|	string|	用户昵称|
 |avatar|	true|	string|	头像地址|
-|gender	|true	|string|	性别|
+|gender	|true	|string|	性别，M(男)F(女)S(保密)|
 |occupation	|true|	string	|职业|
 
 
