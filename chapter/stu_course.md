@@ -78,8 +78,8 @@
       description: "<p>课程介绍</p>"
       }
     ],
-    learningCoursesList: [...],
-    favoriteCoursesList: [...]
+    learningCoursesList: [...结构同上],
+    favoriteCoursesList: [...结构同上]
     }
 }
 
