@@ -8,7 +8,7 @@
 |参数名|	必选|	类型及范围|	说明|
 |--|--|--|--|
 |userId|	true|	string|	用户ID|
-|timestamp|	true|	string|	当前的时间戳|
+|timestamp|	true|	long|	当前的时间戳|
 |sign|	true|	string	签名|
 |nickname	|true|	string|	用户昵称|
 |avatar|	true|	string|	头像地址|
@@ -34,18 +34,20 @@
 
 ````
 //修改信息成功
-{"code": "200",
-"status": "success",
-"message": "",
-"data":null
+{
+  "code": "200",
+  "status": "success",
+  "message": "",
+  "data":null
 }
 ````
 ````
 //修改失败
-{"code": "400",
- "status": "error",
- "message": "update failed.",
- "data": null
+{
+  "code": "400",
+  "status": "error",
+  "message": "update failed.",
+  "data": null
 }
 ````
 
