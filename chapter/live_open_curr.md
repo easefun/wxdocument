@@ -110,6 +110,6 @@
 |data[index].createdTime|课时创建时间|
 |data[index].lastModified|上次修改时间|
 |data[index].startTs|开始时长，yyyy/MM/dd/HH:mm:ss|
-|data[index].endTs|结束时间，yyyy/MM/dd/HH:mm:ss||
+|data[index].endTs|结束时间，yyyy/MM/dd/HH:mm:ss|
 |data[index].isRepeat|是否每周重复|
 |data[index].videoCoverImage|回放视频封面图|
