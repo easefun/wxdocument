@@ -106,4 +106,4 @@ JSON示例
 |data\[index\].fileurl|文件连接|
 |data\[index\].createdTime|创建时间(时间戳)|
 |data\[index\].lastModified|上传修改时间(时间戳)|
-|data\[index\].videoCoverImage|视频封面图||
+|data\[index\].videoCoverImage|视频封面图|
