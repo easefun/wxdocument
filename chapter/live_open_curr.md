@@ -107,7 +107,7 @@
 |data[index].videoId|直播回放的视频ID|
 |data[index].videoDuration|视频播放时长，单位：秒|
 |data[index].status|课时状态|
-|data[index].createdTime|课时创建时间|
+|data[index].createdTime|课时创建时间(时间戳)|
 |data[index].lastModified|上次修改时间(时间戳)|
 |data[index].startTs|开始时长(时间戳)，yyyy/MM/dd/HH:mm:ss|
 |data[index].endTs|结束时间(时间戳)，yyyy/MM/dd/HH:mm:ss|
