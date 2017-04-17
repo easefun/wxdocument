@@ -93,6 +93,8 @@
 |message|	响应信息|
 |data|	返回数据|
 |data|	返回数据|
+|data.learningCourseList|	在学课程列表，内容结构同已购买的课程列表|
+|data.favoriteCourseList|	喜爱的课程列表，内容结构同已购买的课程列表|
 | data.purchasedCourseList|已购买的课程列表|
 | data.purchasedCourseList\[index\].courseId | 课程ID |
 | data.purchasedCourseList\[index\].courseType | 课程类型，OPEN_VOD（点播公开课）、OPEN_LIVE（直播公开课）、VIP（VIP课程） |
@@ -137,5 +139,3 @@
 | data.purchasedCourseList\[index\].teacherAvatar | 主讲老师头像 |
 | data.purchasedCourseList\[index\].channelPasswd | 直播频道号密码 |
 | data.purchasedCourseList\[index\].description | 课程详情 |
-|data.learningCourseList|	在学课程列表，内容结构同上|
-|data.favoriteCourseList|	喜爱的课程列表，内容结构同上|
