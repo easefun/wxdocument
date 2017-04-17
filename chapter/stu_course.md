@@ -83,30 +83,6 @@
     }
 }
 
-{"code": "200",
-"status": "success",
-"message": "",
-"data":{"learningCourseList":[{课程信息的json},{...},....{...}]}, //在学课程的课程信息
-       {"favoriteCourseList":[{课程信息的json},{...},....{...}]}, //喜爱的课程信息
-       {"purchasedCourseList":[{课程信息的json},{...},....{...}]} //已购买的课程信息
-}
-`````
-`````
-//每一个课程json的信息包含
-{"title": "标题",
- "subtitle": "副标题",
- "categoryName": "分类名称",
- "keyword1": "标签",
- "keyword2": "标签",
- "keyword3": "标签",
- "coverImage": "课程封面图片路径",
- "price": "课程价格",
- "isFreeVip": "VIP会员是否免费",
- "studentCount": "在学人数",
- "objectives": "教学目标",
- "audiences": "目标学员",
- "requirements": "学习要求"
-}
 `````
 * 字段说明(其他字段信息请在json示例里查看)
 
@@ -116,6 +92,50 @@
 |status|	响应状态|
 |message|	响应信息|
 |data|	返回数据|
-|data.learningCourseList|	在学课程|
-|data.favoriteCourseList|	喜爱的课程|
-|data.purchasedCourseList|	已购买的课程|
+|data|	返回数据|
+| data.purchasedCourseList|已购买的课程列表|
+| data.purchasedCourseList\[index\].courseId | 课程ID |
+| data.purchasedCourseList\[index\].courseType | 课程类型，OPEN_VOD（点播公开课）、OPEN_LIVE（直播公开课）、VIP（VIP课程） |
+| data.purchasedCourseList\[index\].courseMeth | 上课方式，VOD（视频点播）、LIVE（视频直播）、VIP（VIP） |
+| data.purchasedCourseList\[index\].categoryId | 分类ID |
+| data.purchasedCourseList\[index\].schoolId | 网校ID |
+| data.purchasedCourseList\[index\].title | 课程标题 |
+| data.purchasedCourseList\[index\].subtitle | 课程子标题 |
+| data.purchasedCourseList\[index\].summary | 课程概要 |
+| data.purchasedCourseList\[index\].keyword1 | 课程关键词1 |
+| data.purchasedCourseList\[index\].keyword2 | 课程关键词2 |
+| data.purchasedCourseList\[index\].keyword3 | 课程关键词3 |
+| data.purchasedCourseList\[index\].objectives | 教学目标 |
+| data.purchasedCourseList\[index\].audiences | 目标学员 |
+| data.purchasedCourseList\[index\].requirements | 学习要求 |
+| data.purchasedCourseList\[index\].coverImage | 课程封面图 |
+| data.purchasedCourseList\[index\].promoImage | 课程宣传图 |
+| data.purchasedCourseList\[index\].promoVideoId | 课程宣传片视频ID |
+| data.purchasedCourseList\[index\].price | 课程定价 |
+| data.purchasedCourseList\[index\].validity | 学习有效期，单位：天 |
+| data.purchasedCourseList\[index\].isFree | 是否免费，Y（免费）、N（收费） |
+| data.purchasedCourseList\[index\].isFreeVip | 是否对VIP会员免费，Y（免费）、N（收费） |
+| data.purchasedCourseList\[index\].isRecommend | 是否推荐，Y（推荐）、N（不是推荐） |
+| data.purchasedCourseList\[index\].recommendTime | 推荐时间(时间戳) |
+| data.purchasedCourseList\[index\].isBarrageEnabled | 是否开启弹幕，Y（开启）、N（关闭） |
+| data.purchasedCourseList\[index\].isTickerEnabled | 是否开启跑马灯功能，Y（开启）、N（关闭） |
+| data.purchasedCourseList\[index\].tickerContent | 跑马灯内容模板 |
+| data.purchasedCourseList\[index\].isRoyaltyEnabled | 是否实施收入分成 |
+| data.purchasedCourseList\[index\].channelId | 直播课程的频道ID |
+| data.purchasedCourseList\[index\].channelSecretkey | 直播课程的SecretKey |
+| data.purchasedCourseList\[index\].status | 课程状态 |
+| data.purchasedCourseList\[index\].userId | 课程创建者用户Id |
+| data.purchasedCourseList\[index\].createdTime | 课程创建时间 |
+| data.purchasedCourseList\[index\].publishedTime | 课程发布时间(时间戳) |
+| data.purchasedCourseList\[index\].lastModified | 课程最近修改时间(时间戳) |
+| data.purchasedCourseList\[index\].studentCount | 学员总数 |
+| data.purchasedCourseList\[index\].reviewCount | 评论数据 |
+| data.purchasedCourseList\[index\].ratingScore | 平均评分 |
+| data.purchasedCourseList\[index\].categoryName | 分类名称 |
+| data.purchasedCourseList\[index\].teacherId | 主讲老师ID |
+| data.purchasedCourseList\[index\].teacherName | 主讲老师名称 |
+| data.purchasedCourseList\[index\].teacherAvatar | 主讲老师头像 |
+| data.purchasedCourseList\[index\].channelPasswd | 直播频道号密码 |
+| data.purchasedCourseList\[index\].description | 课程详情 |
+|data.learningCourseList|	在学课程列表，内容结构同上|
+|data.favoriteCourseList|	喜爱的课程列表，内容结构同上|
