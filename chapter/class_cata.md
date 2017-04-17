@@ -77,8 +77,8 @@
 | data\[index\].name | 分类名称 |
 | data\[index\].description | 分类描述 |
 | data\[index\].icon | 分类图标 |
-| data\[index\].createdTime | 创建时间，时间戳 |
-| data\[index\].lastModified | 最近修改时间，时间戳 |
+| data\[index\].createdTime | 创建时间(时间戳) |
+| data\[index\].lastModified | 最近修改时间(时间戳) |
 | data\[index\].depth | 分类节点深度 |
 | data\[index\].courseCount | 总课程数 |
 
