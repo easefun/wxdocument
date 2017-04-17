@@ -130,6 +130,6 @@
 | data\[index\].status| 订单状态 |
 | data\[index\].outTradeNo | 外部支付交易号 |
 | data\[index\].outTradeStatus | 外部支付交易状态 |
-| data\[index\].createdTime | 订单创建时间 |
-| data\[index\].lastModified | 订单修改时间 |
-| data\[index\].paidTime | 订单支付时间 |
+| data\[index\].createdTime | 订单创建时间，时间戳 |
+| data\[index\].lastModified | 订单修改时间，时间戳 |
+| data\[index\].paidTime | 订单支付时间，时间戳 |
