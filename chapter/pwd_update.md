@@ -39,10 +39,11 @@
 ````
 ````
 //修改密码失败
-{"code": "400",
-"status": "error",
-"message": "修改密码失败。",
-"data":null
+{
+  "code": "400",
+  "status": "error",
+  "message": "修改密码失败。",
+  "data":null
 }
 ````
 
