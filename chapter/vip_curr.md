@@ -8,9 +8,9 @@
 
 |参数名|	必选	|类型及范围|	说明|
 |----|---|----|----|
-|timestamp|	true|	string|	当前的时间戳|
+|timestamp|	true|	long|	当前的时间戳|
 |sign|	true|	string|	签名|
-|courseId	|true	|string|	课程ID|
+|courseId	|true	|long|	课程ID|
 
 * 注意事项
   * 返回错误列表
