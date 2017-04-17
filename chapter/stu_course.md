@@ -92,7 +92,6 @@
 |status|	响应状态|
 |message|	响应信息|
 |data|	返回数据|
-|data|	返回数据|
 |data.learningCourseList|	在学课程列表，内容结构同已购买的课程列表|
 |data.favoriteCourseList|	喜爱的课程列表，内容结构同已购买的课程列表|
 | data.purchasedCourseList|已购买的课程列表|
