@@ -1,4 +1,4 @@
-# 微信小程序-取消收藏课程
+# 取消课程收藏
 
 * 功能：取消课程收藏。
 * URL：[https://{网校域名}/api/wx/favorite-courses/课程ID/del](https://{网校域名}/api/wx/favorite-courses/课程ID/del)
