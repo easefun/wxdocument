@@ -4,10 +4,7 @@
 * URL: http://{网校域名}/api/wx/course/openCourses
 * Content-Type: application/json（校验失败：text/html）
 * HTTP请求方式: GET
-* 请求参数
-
-|参数名|	必选|	类型及范围|	说明|
-|-----|----|------------|-----|
+* 请求参数： 无
 
 * 注意事项
 	* 返回错误列表
