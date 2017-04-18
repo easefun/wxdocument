@@ -1,6 +1,6 @@
-# 微信小程序-获取收藏课程列表
+# 获取课程收藏列表
 
-* 功能：获取某课时预约状况。
+* 功能：获取用户收藏课程列表。
 * URL：[https://{网校域名}/api/wx/favorite-courses](https://{网校域名}/api/wx/favorite-courses)
 * Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式： GET
