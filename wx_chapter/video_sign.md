@@ -1,4 +1,4 @@
-# 微信小程序-获取点播视频签名
+# 点播视频签名
 
 * 功能：发送短信验证码。
 * URL：[https://{网校域名}/api/wx/video-sign/get](https://{网校域名}/api/wx/video-sign/get)

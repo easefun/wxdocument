@@ -21,6 +21,7 @@
  * [用户登录](wx_chapter/login.md)
  * [课程详情](wx_chapter/course_info.md)
  * [课程收藏列表](wx_chapter/favorite_course.md)
+ * [点播公开课课时信息](wx_chapter/vod_open_curr.md)
  * [收藏课程](wx_chapter/favorite_course_add.md)
  * [取消收藏课程](wx_chapter/favorite_course_del.md)
  * [观看记录列表](wx_chapter/watch_log.md)
@@ -30,4 +31,5 @@
  * [课程预约状态](wx_chapter/course_booking.md)
  * [预约课程](wx_chapter/course_booking_add.md)
  * [取消预约课程](wx_chapter/course_booking_del.md)
+ * [点播视频签名](wx_chapter/video_sign.md)
 

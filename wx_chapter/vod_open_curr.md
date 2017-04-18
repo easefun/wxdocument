@@ -1,4 +1,4 @@
-#点播公开课课时信息
+# 点播公开课课时信息
 * 功能：根据课程ID，返回所有点播公开课的课时信息
 * URL：http://{网校域名}/api/wx/curriculum/vod-open-curriculum
 * Content-Type： application/json（校验失败：text/html）
