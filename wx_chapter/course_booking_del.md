@@ -3,7 +3,7 @@
 * 功能：取消预约某直播课程。
 * URL：[https://{网校域名}/api/wx/course-booking/del](https://{网校域名}/api/wx/course-booking/del)
 * Content-Type： application/json（校验失败：text/html）
-* HTTP请求方式： GET、POST
+* HTTP请求方式： GET/POST
 * 请求参数
 
 | 参数名 | 必选 | 类型及范围 | 说明 |

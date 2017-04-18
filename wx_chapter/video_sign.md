@@ -3,7 +3,7 @@
 * 功能：发送短信验证码。
 * URL：[https://{网校域名}/api/wx/video-sign/get](https://{网校域名}/api/wx/video-sign/get)
 * Content-Type： application/json（校验失败：text/html）
-* HTTP请求方式： GET、POST
+* HTTP请求方式： GET/POST
 * 请求参数
 
 | 参数名 | 必选 | 类型及范围 | 说明 |
@@ -52,6 +52,6 @@
 | code | 响应代码 |
 | status | 响应状态 |
 | message | 响应信息 |
-| data | 响应内容 |
+| data | 返回数据 |
 | data.sign | 签名 |
 | data.ts | 时间戳 |

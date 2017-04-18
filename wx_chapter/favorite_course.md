@@ -83,6 +83,7 @@
 | code | 响应代码 |
 | status | 响应状态 |
 | message | 响应信息 |
+| data | 返回数据 |
 |data[index]| 收藏课程列表 |
 | data\[index\].courseId | 课程ID |
 | data\[index\].courseType | 课程类型，OPEN_VOD（点播公开课）、OPEN_LIVE（直播公开课）、VIP（VIP课程） |

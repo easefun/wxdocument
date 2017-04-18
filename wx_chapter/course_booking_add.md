@@ -3,7 +3,7 @@
 * 功能：预约某直播课程，直播前30分钟发送通知提醒。
 * URL：[https://{网校域名}/api/wx/course-booking/add](https://{网校域名}/api/wx/course-booking/add)
 * Content-Type： application/json（校验失败：text/html）
-* HTTP请求方式： GET、POST
+* HTTP请求方式： GET/POST
 * 请求参数
 
 | 参数名 | 必选 | 类型及范围 | 说明 |

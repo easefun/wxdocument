@@ -37,6 +37,6 @@
 | --- | --- |
 | code | 响应代码 |
 | status | 响应状态 |
-| message | 响应信息 |
+| message | 返回数据 |
 | data | 课程预约状态；NOBOOKING-NOMOBILE 没预约(没绑定手机号)、NOBOOKING 没预约(已绑定手机号)、WAITING 等待通知、FINISHED 已经通知 |
 

@@ -3,7 +3,7 @@
 * 功能：获取网校头图列表。
 * URL：[https://{网校域名}/api/wx/header-image/get](https://{网校域名}/api/wx/header-image/get)
 * Content-Type： application/json（校验失败：text/html）
-* HTTP请求方式： GET、POST
+* HTTP请求方式： GET/POST
 * 请求参数：无
 
 * 注意事项
@@ -43,7 +43,7 @@
 | code | 响应代码 |
 | status | 响应状态 |
 | message | 响应信息 |
-| data | 响应内容 |
+| data | 返回数据 |
 | data.id | 头图ID |
 | data.src | 头图链接 |
 | data.href | 课程ID |
