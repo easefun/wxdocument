@@ -1,4 +1,4 @@
-# 微信小程序-获取课程预约
+# 微信小程序-首页头图
 
 * 功能：获取网校头图列表。
 * URL：[https://{网校域名}/api/wx/header-image/get](https://{网校域名}/api/wx/header-image/get)
