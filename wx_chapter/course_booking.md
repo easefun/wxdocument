@@ -28,20 +28,7 @@
   code: 200,
   status: "success",
   message: "",
-  data: {
-	openId: "od3H50g8EaFz8Z13v7dx3D41cCdY",
-	sessionId: "ep4g07c210"
-  }
-}
-```
-
-```
-//登录失败
-{
-  "code": "400",
-  "status": "error",
-  "message": "login error",
-  "data": ""
+  data: "NOBOOKING-NOMOBILE"
 }
 ```
 
@@ -52,7 +39,5 @@
 | code | 响应代码 |
 | status | 响应状态 |
 | message | 响应信息 |
-| data | 返回数据 |
-| data.openId | 微信用户ID |
-| data.sessionId | 会话ID，调用部分接口需要该ID |
+| data | 课程预约状态；NOBOOKING-NOMOBILE 没预约(没绑定手机号)、NOBOOKING 没预约(已绑定手机号)、WAITING 等待通知、FINISHED 已经预约 |
 
