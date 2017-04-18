@@ -23,7 +23,7 @@
 * JSON示例
 
 ```
-//登录成功
+//调用成功
 {
   code: 200,
   status: "success",
