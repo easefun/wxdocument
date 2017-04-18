@@ -1,4 +1,4 @@
-# 观看记录
+# 观看记录列表
 
 * 功能：获取最近观看课程列表。
 * URL：[https://{网校域名}/api/wx/watch-log/get](https://{网校域名}/api/wx/watch-log/get)
