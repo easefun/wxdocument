@@ -210,3 +210,4 @@ JSON示例
 |data[index].openLiveCourse.endTs|结束时间(时间戳)，yyyy/MM/dd/HH:mm:ss|
 |data[index].openLiveCourse.isRepeat|是否每周重复|
 |data[index].openLiveCourse.videoCoverImage|回放视频封面图|
+
