@@ -1,6 +1,6 @@
 # 点播视频签名
 
-* 功能：发送短信验证码。
+* 功能：获取点播视频签名。
 * URL：[https://{网校域名}/api/wx/video-sign/get](https://{网校域名}/api/wx/video-sign/get)
 * Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式： GET/POST
