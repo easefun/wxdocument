@@ -30,7 +30,7 @@ JSON示例
 	  summary: "概要",
 	  keyword1: "语文",
 	  keyword2: "小学",
- 	  keyword3: "",
+	  keyword3: "",
 	  objectives: "教学目标",
 	  audiences: "目标学员",
 	  requirements: "",
