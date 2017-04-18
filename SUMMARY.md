@@ -25,3 +25,5 @@
  * [取消收藏课程](wx_chapter/favorite_course_del.md)
  * [观看记录列表](wx_chapter/watch_log.md)
  * [添加观看记录](wx_chapter/watch_log_add.md)
+ * [短信发送签名](wx_chapter/code_sign.md)
+ * [发送验证码](wx_chapter/send_code.md)
