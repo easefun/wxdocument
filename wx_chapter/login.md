@@ -8,7 +8,7 @@
 
 | 参数名 | 必选 | 类型及范围 | 说明 |
 | --- | --- | --- | --- |
-| code | true | string | 用户允许小程序登录后，微信回调内容会带上code，网校服务器接收code后换取openId和sessionId |
+| code | true | string | 用户允许小程序登录后，微信回调内容会带上code，网校服务器接收code后换取openId和sessionKey |
 
 * 注意事项
   * 返回错误列表
