@@ -16,10 +16,10 @@
  * [获取用户信息](chapter/profile.md)
 
 * [小程序API](Introduction.md)
- * [用户登录](wx_chapter/login.md)
- * [课程列表](wx_chapter/course.md)
- * [课程详情](wx_chapter/course_info.md)
  * [首页头图](wx_chapter/header_image.md)
+ * [课程列表](wx_chapter/course.md)
+ * [用户登录](wx_chapter/login.md)
+ * [课程详情](wx_chapter/course_info.md)
  * [课程收藏列表](wx_chapter/favorite_course.md)
  * [收藏课程](wx_chapter/favorite_course.add.md)
  * [取消收藏课程](wx_chapter/favorite_course.del.md)
