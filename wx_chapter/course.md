@@ -1,6 +1,6 @@
 #课程信息
 
-* 功能：根据课程ID，返回相应课程的详细信息
+* 功能：获取课程列表
 * URL: http://{网校域名}/api/wx/course/openCourses
 * Content-Type: application/json（校验失败：text/html）
 * HTTP请求方式: GET
