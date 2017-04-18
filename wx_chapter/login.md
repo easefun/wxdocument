@@ -1,6 +1,6 @@
 # 微信小程序-用户登录
 
-* 功能：小程序用户登录网校，并返回sessionId和openId。
+* 功能：用户登录网校，并返回sessionId和openId。
 * URL：[https://{网校域名}/api/wx/login](https://{网校域名}/api/wx/login)
 * Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式： GET
