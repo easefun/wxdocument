@@ -174,6 +174,7 @@ JSON示例
 | data\[index\].openCourses.teacherAvatar | 主讲老师头像 |
 | data\[index\].openCourses.channelPasswd | 直播频道号密码 |
 | data\[index\].openCourses.description | 课程详情 |
+|||
 |data[index].openLiveCourse| 直播公开课列表 |
 |data[index].openLiveCourse.curriculumId|课时ID|
 |data[index].openLiveCourse.curriculumType|课时类型，section（章节）、lecture（课时）|
