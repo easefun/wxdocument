@@ -1,4 +1,4 @@
-# 获取课程预约
+# 课程详细信息
 
 * 功能：根据课程ID，返回相应课程的详细信息
 * URL: http://{网校域名}/api/wx/course/course-info
