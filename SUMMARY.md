@@ -21,7 +21,7 @@
  * [用户登录](wx_chapter/login.md)
  * [课程详情](wx_chapter/course_info.md)
  * [课程收藏列表](wx_chapter/favorite_course.md)
- * [收藏课程](wx_chapter/favorite_course.add.md)
- * [取消收藏课程](wx_chapter/favorite_course.del.md)
+ * [收藏课程](wx_chapter/favorite_course_add.md)
+ * [取消收藏课程](wx_chapter/favorite_course_del.md)
 
 
