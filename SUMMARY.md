@@ -16,7 +16,7 @@
  * [获取用户信息](chapter/profile.md)
 
 * [小程序API](Introduction.md)
- * [课程登录](wx_chapter/login.md)
+ * [用户登录](wx_chapter/login.md)
  * [课程列表](wx_chapter/course.md)
 
 
