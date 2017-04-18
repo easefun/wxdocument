@@ -9,8 +9,8 @@
 | 参数名 | 必选 | 类型及范围 | 说明 |
 | --- | --- | --- | --- |
 | curriculumId | false | string | 课时ID |
-| mobile |  | long | 手机号，非绑定手机号用户第一次预约必填 |
-| code |  | string | 短信验证码，非绑定手机号第一次预约必填，点击这里访问发送验证码接口api/wx/code/code-sign |
+| mobile | false | long | 手机号，非绑定手机号用户第一次预约必填 |
+| code | false | string | 短信验证码，非绑定手机号第一次预约必填，点击这里访问发送验证码接口api/wx/code/code-sign |
 | courseId | true | long | 课程ID |
 | sessionId | true | string | 会话ID |
 
@@ -32,6 +32,17 @@
   message: "",
   data: "NOBOOKING-NOMOBILE"
 }
+
+```
+```
+//调用失败
+{
+code: 400,
+status: "error",
+message: "blank openId",
+data: ""
+}
+
 ```
 
 * 字段说明
