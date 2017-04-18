@@ -1,4 +1,4 @@
-# 微信小程序-用户登录
+# 微信小程序-课程预约
 
 * 功能：小程序用户登录网校，并返回sessionId和openId。
 * URL：[https://{网校域名}/api/wx/login](https://{网校域名}/api/wx/login)
