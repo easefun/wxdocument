@@ -23,5 +23,5 @@
  * [课程收藏列表](wx_chapter/favorite_course.md)
  * [收藏课程](wx_chapter/favorite_course_add.md)
  * [取消收藏课程](wx_chapter/favorite_course_del.md)
- * [观看记录](wx_chapter/watch_log.md)
+ * [观看记录列表](wx_chapter/watch_log.md)
  * [添加观看记录](wx_chapter/watch_log_add.md)
