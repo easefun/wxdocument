@@ -96,6 +96,8 @@
 | status | 响应状态 |
 | message | 响应信息 |
 |data|  返回数据|
+|data.liveStatus|  课程直播状态，live直播中, waiting未直播, end已结束, ready直播前30分钟|
+|data.liveUserId|  直播用户ID|
 |data.course| 课程详情 |
 | data.course.courseId | 课程ID |
 | data.course.courseType | 课程类型，OPEN_VOD（点播公开课）、OPEN_LIVE（直播公开课）、VIP（VIP课程） |
