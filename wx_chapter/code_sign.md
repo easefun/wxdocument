@@ -1,6 +1,6 @@
 # 短信发送签名
 
-* 功能：获取网校头图列表。
+* 功能：获取短信发送签名。
 * URL：[https://{网校域名}/api/wx/code/code-sign](https://{网校域名}/api/wx/code/code-sign)
 * Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式： GET/POST
