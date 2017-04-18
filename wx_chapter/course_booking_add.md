@@ -1,4 +1,4 @@
-# 微信小程序-预约课程
+# 预约课程
 
 * 功能：预约某直播课程，直播前30分钟发送通知提醒。
 * URL：[https://{网校域名}/api/wx/course-booking/add](https://{网校域名}/api/wx/course-booking/add)

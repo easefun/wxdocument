@@ -1,4 +1,4 @@
-# 微信小程序-获取最近观看课程列表
+# 观看记录
 
 * 功能：获取最近观看课程列表。
 * URL：[https://{网校域名}/api/wx/watch-log/get](https://{网校域名}/api/wx/watch-log/get)

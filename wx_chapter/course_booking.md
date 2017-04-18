@@ -1,4 +1,4 @@
-# 微信小程序-获取课程预约
+# 获取课程预约
 
 * 功能：获取某课时预约状况。
 * URL：[https://{网校域名}/api/wx/course-booking/status](https://{网校域名}/api/wx/course-booking/status)

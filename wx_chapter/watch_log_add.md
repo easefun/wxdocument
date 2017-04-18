@@ -1,4 +1,4 @@
-# 微信小程序-添加观看课程记录
+# 添加观看记录
 
 * 功能：添加观看课程记录。
 * URL：[https://{网校域名}/api/wx/watch-log/add](https://{网校域名}/api/wx/watch-log/add)

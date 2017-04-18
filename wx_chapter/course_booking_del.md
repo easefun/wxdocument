@@ -1,4 +1,4 @@
-# 微信小程序-取消预约课程
+# 取消预约课程
 
 * 功能：取消预约某直播课程。
 * URL：[https://{网校域名}/api/wx/course-booking/del](https://{网校域名}/api/wx/course-booking/del)
