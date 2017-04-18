@@ -54,7 +54,7 @@ JSON示例
 	curriculumType: "lecture",
 	courseId: 176,
 	schoolId: "test",
-	title: "点播公开课章节显示课时1",
+	title: "课时1",
 	description: null,
 	ordered: 2,
 	status: "draft",
