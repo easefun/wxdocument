@@ -2,7 +2,6 @@
 
 * 功能：小程序用户登录网校，并返回sessionId和openId。
 * URL：[https://{网校域名}/api/wx/course-booking/getBookingStatus](https://{网校域名}/api/wx/course-booking/getBookingStatus)
-* URL：[https://{网校域名}/api/wx/course-booking/课程ID/status](https://{网校域名}/api/wx/course-booking/课程ID/status)
 * Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式： GET
 * 请求参数
