@@ -1,4 +1,4 @@
-# 微信小程序-发送短信验证码
+# 发送短信验证码
 
 * 功能：发送短信验证码。
 * URL：[https://{网校域名}/api/wx/code/send-code](https://{网校域名}/api/wx/code/send-code)

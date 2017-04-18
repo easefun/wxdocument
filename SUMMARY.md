@@ -27,3 +27,7 @@
  * [添加观看记录](wx_chapter/watch_log_add.md)
  * [短信发送签名](wx_chapter/code_sign.md)
  * [发送验证码](wx_chapter/send_code.md)
+ * [课程预约状态](wx_chapter/course_booking.md)
+ * [预约课程](wx_chapter/course_booking_add.md)
+ * [取消预约课程](wx_chapter/course_booking_del.md)
+
