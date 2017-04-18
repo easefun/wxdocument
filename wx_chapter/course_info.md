@@ -35,7 +35,7 @@
       courseMeth: "LIVE",
       categoryId: 63,
       schoolId: "test",
-      title: "paul直播公开课",
+      title: "直播公开课",
       subtitle: "",
       summary: null,
       keyword1: "",
@@ -58,7 +58,7 @@
       tickerContent: null,
       isRoyaltyEnabled: "N",
       channelId: 0,
-      channelSecretkey: "9dVyTsp6Vv",
+      channelSecretkey: "9dVy3s16Vv",
       status: "published",
       userId: "iv9491le",
       createdTime: 1486278039000,
@@ -68,11 +68,11 @@
       reviewCount: 0,
       ratingScore: 0,
       categoryName: "课程分类",
-      teacherId: "iv9491le",
-      teacherName: "Lin",
+      teacherId: "iv9321le",
+      teacherName: "孙老师",
       teacherAvatar: "https://res.wangxiaoyun.net/assets/images/avatars/10avatar.jpg",
       channelPasswd: "",
-      description: null
+      description: ""
     },
     liveStatus: "live",
 	liveUserId: "edvf2fpec9"
@@ -95,5 +95,49 @@
 | code | 响应代码 |
 | status | 响应状态 |
 | message | 响应信息 |
-| data | 课程预约状态；NOBOOKING-NOMOBILE 没预约(没绑定手机号)、NOBOOKING 没预约(已绑定手机号)、WAITING 等待通知、FINISHED 已经通知 |
+|data|  返回数据|
+|data.course| 课程详情 |
+| data.course.courseId | 课程ID |
+| data.course.courseType | 课程类型，OPEN_VOD（点播公开课）、OPEN_LIVE（直播公开课）、VIP（VIP课程） |
+| data.course.courseMeth | 上课方式，VOD（视频点播）、LIVE（视频直播）、VIP（VIP） |
+| data.course.categoryId | 分类ID |
+| data.course.schoolId | 网校ID |
+| data.course.title | 课程标题 |
+| data.course.subtitle | 课程子标题 |
+| data.course.summary | 课程概要 |
+| data.course.keyword1 | 课程关键词1 |
+| data.course.keyword2 | 课程关键词2 |
+| data.course.keyword3 | 课程关键词3 |
+| data.course.objectives | 教学目标 |
+| data.course.audiences | 目标学员 |
+| data.course.requirements | 学习要求 |
+| data.course.coverImage | 课程封面图 |
+| data.course.promoImage | 课程宣传图 |
+| data.course.promoVideoId | 课程宣传片视频ID |
+| data.course.price | 课程定价 |
+| data.course.validity | 学习有效期，单位：天 |
+| data.course.isFree | 是否免费，Y（免费）、N（收费） |
+| data.course.isFreeVip | 是否对VIP会员免费，Y（免费）、N（收费） |
+| data.course.isRecommend | 是否推荐，Y（推荐）、N（不是推荐） |
+| data.course.recommendTime | 推荐时间(时间戳) |
+| data.course.isBarrageEnabled | 是否开启弹幕，Y（开启）、N（关闭） |
+| data.course.isTickerEnabled | 是否开启跑马灯功能，Y（开启）、N（关闭） |
+| data.course.tickerContent | 跑马灯内容模板 |
+| data.course.isRoyaltyEnabled | 是否实施收入分成 |
+| data.course.channelId | 直播课程的频道ID |
+| data.course.channelSecretkey | 直播课程的SecretKey |
+| data.course.status | 课程状态 |
+| data.course.userId | 课程创建者用户Id |
+| data.course.createdTime | 课程创建时间 |
+| data.course.publishedTime | 课程发布时间(时间戳) |
+| data.course.lastModified | 课程最近修改时间(时间戳) |
+| data.course.studentCount | 学员总数 |
+| data.course.reviewCount | 评论数据 |
+| data.course.ratingScore | 平均评分 |
+| data.course.categoryName | 分类名称 |
+| data.course.teacherId | 主讲老师ID |
+| data.course.teacherName | 主讲老师名称 |
+| data.course.teacherAvatar | 主讲老师头像 |
+| data.course.channelPasswd | 直播频道号密码 |
+| data.course.description | 课程详情 |
 
