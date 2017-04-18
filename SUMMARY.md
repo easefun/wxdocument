@@ -18,5 +18,6 @@
 * [小程序API](Introduction.md)
  * [用户登录](wx_chapter/login.md)
  * [课程列表](wx_chapter/course.md)
+ * [课程详情](wx_chapter/course-info.md)
 
 
