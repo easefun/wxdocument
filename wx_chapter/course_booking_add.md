@@ -30,17 +30,17 @@
   code: 200,
   status: "success",
   message: "",
-  data: "NOBOOKING-NOMOBILE"
+  data: "true"
 }
 
 ```
 ```
 //调用失败
 {
-code: 400,
-status: "error",
-message: "blank openId",
-data: ""
+  code: 400,
+  status: "error",
+  message: "blank mobile",
+  data: ""
 }
 
 ```
@@ -52,5 +52,5 @@ data: ""
 | code | 响应代码 |
 | status | 响应状态 |
 | message | 响应信息 |
-| data | 课程预约状态；NOBOOKING-NOMOBILE 没预约(没绑定手机号)、NOBOOKING 没预约(已绑定手机号)、WAITING 等待通知、FINISHED 已经通知 |
+| data | 返回数据 |
 
