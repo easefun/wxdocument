@@ -20,7 +20,7 @@ JSON示例
   data: {
   	openCourses: [
   	{
-  	  courseId: 31,
+	  courseId: 31,
 	  courseType: "OPEN_VOD",
 	  courseMeth: "VOD",
 	  categoryId: 3,
