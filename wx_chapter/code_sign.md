@@ -1,4 +1,4 @@
-# 获取短信发送签名
+# 短信发送签名
 
 * 功能：获取网校头图列表。
 * URL：[https://{网校域名}/api/wx/code/code-sign](https://{网校域名}/api/wx/code/code-sign)
