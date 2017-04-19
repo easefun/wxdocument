@@ -11,7 +11,7 @@
 | mobile | true | string | 手机号 |
 | sessionId | true | string | 会话ID |
 | t | true | long | 短信签名接口返回的时间戳 |
-| h | true | string | 短信签名接口返回的签名 (课程)(wx_chapter/video_sign.md)|
+| h | true | string | 短信签名接口返回的签名 [查看接口](code_sign.md)|
 
 * 注意事项
   * 返回错误列表
