@@ -10,7 +10,7 @@
 | --- | --- | --- | --- |
 | mobile | true | string | 手机号 |
 | sessionId | true | string | 会话ID |
-| t | true | long | 短信签名接口返回的时间戳 |
+| t | true | long | 短信签名接口返回的时间戳 [查看接口](code_sign.md)|
 | h | true | string | 短信签名接口返回的签名 [查看接口](code_sign.md)|
 
 * 注意事项
