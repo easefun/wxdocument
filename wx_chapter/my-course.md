@@ -37,7 +37,7 @@ JSON示例
 	"objectives": null,
 	"audiences": null,
 	"requirements": null,
-	"coverImage": "201703/f75c08016a5b4f42b338bc3a99e7c7a4.png",
+	"coverImage": "https://res.wangxiaoyun.net/image/287x180/201704/c0cf3f220c474d7bb19ef55719bea124.png",
 	"promoImage": null,
 	"promoVideoId": null,
 	"price": 0,
@@ -62,8 +62,8 @@ JSON示例
 	"ratingScore": 0,
 	"categoryName": "课程分类",
 	"teacherId": "j0hj96ym",
-	"teacherName": "晓浓老师",
-	"teacherAvatar": "201703/aacb188d382b4b4babf2cd817d991742.png",
+	"teacherName": "孙老师",
+	"teacherAvatar": "https://res.wangxiaoyun.net/assets/images/avatars/10avatar.jpg",
 	"channelPasswd": "",
 	"description": ""
   }]
