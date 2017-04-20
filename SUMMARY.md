@@ -32,5 +32,5 @@
  * [预约课程](wx_chapter/course_booking_add.md)
  * [取消预约课程](wx_chapter/course_booking_del.md)
  * [点播视频签名](wx_chapter/video_sign.md)
- * [我的课程](wx_chapter/my-course.md)
+ * [已购课程](wx_chapter/my-course.md)
 
