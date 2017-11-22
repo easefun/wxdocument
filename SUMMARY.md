@@ -14,7 +14,7 @@
  * [密码修改](chapter/pwd_update.md)
  * [修改用户基本信息](chapter/profile_update.md)
  * [获取用户信息](chapter/profile.md)
- * [获取用户信息](chapter/vod-open-course.md)
+ * [分页获取课程列表](chapter/vod-open-course.md)
 
 * [小程序API](Introduction.md)
  * [首页头图](wx_chapter/header_image.md)
