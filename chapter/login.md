@@ -27,10 +27,16 @@
 ```
 //登录成功
 {
-  "code": "200",
-  "status": "success",
-  "message": "登录成功",
-  "data": "登录成功."
+  "code":200,
+  "status":"success",
+  "message":"",
+  "data":
+    {
+      "userId":"j176rhdo",
+      "nickName":"宝宝",
+      "account":"13650957972",
+      "schoolId":"demo"
+    }
 }
 ```
 
