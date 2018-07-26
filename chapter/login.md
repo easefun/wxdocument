@@ -33,7 +33,7 @@
   "data":
     {
       "userId":"j176rhdo",
-      "nickName":"宝宝",
+      "nickname":"宝宝",
       "account":"13650957972",
       "schoolId":"demo"
     }
