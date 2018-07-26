@@ -50,8 +50,8 @@ JSON示例
 |status|	响应状态|
 |message|	响应信息|
 |data|	返回数据|
-| data\[index\].userId | 用户ID |
-| data\[index\].nickname | 用户昵称 |
-| data\[index\].account | 用户账号 |
-| data\[index\].schoolId | 网校ID |
+| data.userId | 用户ID |
+| data.nickname | 用户昵称 |
+| data.account | 用户账号 |
+| data.schoolId | 网校ID |
 
