@@ -35,7 +35,8 @@
       "userId":"j176rhdo",
       "nickname":"宝宝",
       "account":"13650957972",
-      "schoolId":"demo"
+      "schoolId":"demo",
+      "token":"9a1a40f2696fdde266813d0b7e6faa7b"
     }
 }
 ```
