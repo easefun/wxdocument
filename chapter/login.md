@@ -59,6 +59,14 @@
 | status | 响应状态 |
 | message | 响应信息 |
 | data | 返回数据 |
+| data.userId | 用户ID |
+| data.nickname | 用户昵称 |
+| data.account | 用户账号 |
+| data.schoolId | 网校ID |
+| data.token | 授权token |
 
-
-
+* TOKEN使用说明
+登录接口登录成功后，返回值会带有TOKEN(TOKEN的有效期为10分钟且只能使用一次)，获取TOKEN并与此前的apiKey做一次MD5：
+sign = MD5(apiKey + token)
+获得sign值后，GET请求下面地址：（页面会自动登录跳转）
+http://网校域名/login/token?token=token&sign=sign
