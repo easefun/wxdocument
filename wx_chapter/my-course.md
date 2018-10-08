@@ -2,8 +2,8 @@
 
 * 功能：获取学员已购VIP课程
 * URL: http://{网校域名}/api/wx/course/my-course
-* Content-Type: application/json（校验失败：text/html）
 * HTTP请求方式: GET
+* 响应数据类型: JSON
 * 请求参数
 
 | 参数名 | 必选 | 类型及范围 | 说明 |
