@@ -2,8 +2,8 @@
 
 * 功能：添加新用户，返回简单的用户信息
 * URL： http://{网校域名}/api/user/add
-* Content-Type: application/json（校验失败：text/html）
 * HTTP请求方式： POST
+* 响应数据类型: JSON
 * 请求参数
 
 |参数名|	必选|	类型及范围|	说明|
