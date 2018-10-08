@@ -2,8 +2,8 @@
 
 * 功能：获取课程列表
 * URL: http://{网校域名}/api/wx/course/openCourses
-* Content-Type: application/json（校验失败：text/html）
 * HTTP请求方式: GET
+* 响应数据类型: JSON
 * 请求参数： 无
 
 |返回响应代码	|说明|
