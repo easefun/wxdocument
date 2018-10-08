@@ -2,8 +2,8 @@
 
 * 功能：根据用户ID查出在学课程，已经购买的课程和收藏的课程。
 * URL：http://{网校域名}/api/course/get-courses
-* Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式：GET/POST
+* 响应数据类型: JSON
 * 请求参数
 
 |参数名|	必选|	类型及范围|	说明|
