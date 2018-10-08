@@ -1,8 +1,8 @@
 #课程订单
 * 功能：获取课程订单，如果课程ID为空则返回该用户所有课程订单（返回课程订单的字段：订单名称，课程名称，订单生成时间，订单状态，订单支付时间，订单价格，支付方式）
 * URL： http://{网校域名}/api/order/course-orders
-* Content-Type： application/json（校验失败：text/html）
-* HTTP请求方式: POST或者GET
+* HTTP请求方式: POST或GET
+* 响应数据类型: JSON
 * 请求参数
 
 |参数名|	必选|	类型及范围|	说明|
