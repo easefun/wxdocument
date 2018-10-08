@@ -1,8 +1,8 @@
 #修改用户基本信息
 * 功能：修改用户基本信息
 * URL：http://{网校域名}/api/user/用户的ID/update
-* Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式： POST
+* 响应数据类型: JSON
 * 请求参数
 
 |参数名|	必选|	类型及范围|	说明|
