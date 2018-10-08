@@ -2,8 +2,8 @@
 
 * 功能：用户登录，将用户信息存在session中，密码错误3次，用户将被锁定一天。
 * URL：[http://{网校域名}/api/login](http://{网校域名}/api/login)
-* Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式： POST
+* 响应数据类型: JSON
 * 请求参数
 
 | 参数名 | 必选 | 类型及范围 | 说明 |
