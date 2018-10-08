@@ -2,8 +2,8 @@
 
 * 功能：获取网校头图列表。
 * URL：[https://{网校域名}/api/wx/header-image/get](https://{网校域名}/api/wx/header-image/get)
-* Content-Type： application/json（校验失败：text/html）
 * HTTP请求方式： GET/POST
+* 响应数据类型: JSON
 * 请求参数：无
 
 * 注意事项
