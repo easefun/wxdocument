@@ -98,7 +98,7 @@
 | data\[index\].validity | 学习有效期，单位：天 |
 | data\[index\].isFree | 是否免费，Y（免费）、N（收费） |
 | data\[index\].isFreeVip | 是否对VIP会员免费，Y（免费）、N（收费） |
-| data\[index\].status | 课程状态 |
+| data\[index\].status | 课程状态 draft（草稿）、published（已发布）、hidden（已隐藏）、deleted（已删除）|
 | data\[index\].createdTime | 课程创建时间 |
 | data\[index\].publishedTime | 课程发布时间(时间戳) |
 | data\[index\].lastModified | 课程最近修改时间(时间戳) |
@@ -110,3 +110,12 @@
 | data\[index\].teacherName | 主讲老师名称 |
 | data\[index\].teacherAvatar | 主讲老师头像 |
 | data\[index\].description | 课程详情 |
+|data\[index\].vipCurriculumList | vip课时列表|
+|data\[index\].vipCurriculumList\[index\].curriculumId | 课时id|
+|data\[index\].vipCurriculumList\[index\].courseId | 课程id|
+|data\[index\].vipCurriculumList\[index\].schoolId | 网校id|
+|data\[index\].vipCurriculumList\[index\].title | 课时标题|
+|data\[index\].vipCurriculumList\[index\].createdTime | 创建时间|
+|data\[index\].vipCurriculumList\[index\].lastModified | 最后修改时间|
+|data\[index\].vodCurriculumList | 点播课时列表 同上|
+|data\[index\].openCurriculumList | 公开课课时列表 同上|
