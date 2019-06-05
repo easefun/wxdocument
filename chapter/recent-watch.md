@@ -1,4 +1,4 @@
-# 获取最进观看的课程
+# 获取最近观看的课程
 
 * 功能： 获取网校最近一个月观看的课程，降序排序
 * URL： [http://{网校域名}/api/course/recent-watch](http://{网校域名}/api/category/get-all)
