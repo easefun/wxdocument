@@ -58,6 +58,8 @@
 	  createdTime: 1478586542000,
 	  lastLoginTime: 1492399308000,
 	  occupation: "",
+	  roleCodes: "student,teacher,admin",
+	  roleNames: "学员,教师,管理员",
 	  isRecommend: "N",
 	  courseList: [
 	    {
@@ -84,7 +86,9 @@
 |data.user.gender	|用户性别，M（男）、F（女）、S（保密）|
 |data.user.createdTime|	用户创建时间|
 |data.user.lastLoginTime|	用户最后登录时间(时间戳)|
-|data.user.occupation	|用户职位|
+|data.user.occupation	|用户 职位|
+|data.user.roleCodes	|用户角色代码|
+|data.user.roleNames	|用户角色|
 |data.user.isRecommend	|是否为推荐老师，Y（是）、N（否）|
 |data.user.courseList	|教师所教课程|
 |data.user.courseList\[index\].courseId	|课程ID|
