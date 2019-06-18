@@ -38,5 +38,23 @@
 | 400 | 找不到用户 |
 | 403 | 签名错误 |
 
+* 由网校跳到第三方平台的接口，网校会带一个token到第三方系统，验证是否是在网校跳转。
+  * secretKey：这里的secretKey是系统的第三方接入设置的key,参考上面的描述;
+  * token的规则：json + "DEWX_FLAG" + MD5;
+  * json: 这是一个存放当前登录用户的userId 和 userName的json;
+  * "DEWX_FLAG": 这是一个分割字符;
+  * MD5: 这个md5的生成规则是 secretKey + json + secretKey这个字符用md5加密转大写，用于对比。
+  * token生成的代码如下：
+           JSONObject jsonObject = new JSONObject();
+           jsonObject.put("userId", (null != user) ? user.getUserId() : "");
+           jsonObject.put("userName", (null != user) ? user.getNickname() : "");
+     
+           String paramBase64 = Base64Utils.encodeToString(jsonObject.toString().getBytes());
+           String sign = apiKey + paramBase64 +apiKey;
+           return paramBase64 + "DEWX_FLAG" + MD5Utils.getMD5String(sign).toUpperCase();
+  
+  * 可通过对paramBase64的Base64解密获得userId和userName，用于第三方系统使用; 
+  * 可用secretKey + paramBase64 MD5加密判断是否来自网校。
+
 
 

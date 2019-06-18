@@ -33,6 +33,8 @@
 	  mobile: "13888888888",
 	  nickName: "学员昵称",
 	  gender: "S",
+	  roleCodes: "student",
+      roleNames: "学员",
 	  createdTime: 1478230795000,
 	  lastLoginTime: 1484104186000,
 	  occupation: "",
@@ -58,8 +60,8 @@
 	  createdTime: 1478586542000,
 	  lastLoginTime: 1492399308000,
 	  occupation: "",
-	  roleCodes: "student,teacher,admin",
-	  roleNames: "学员,教师,管理员",
+	  roleCodes: "student,teacher",
+	  roleNames: "学员,教师",
 	  isRecommend: "N",
 	  courseList: [
 	    {
