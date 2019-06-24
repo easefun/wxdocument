@@ -22,7 +22,7 @@
 | 404 |	找不到该课程 |
 
 JSON示例
-操作结果返回json
+操作结果返回json(非直播公开课)
 ````
 {
   code: 200,
@@ -127,3 +127,73 @@ JSON示例
 | data\[index\].teacherAvatar | 主讲老师头像 |
 | data\[index\].channelPasswd | 直播频道号密码 |
 | data\[index\].description | 课程详情 |
+
+
+
+操作结果返回json(直播公开课)
+````
+{
+  code: 200,
+  status: "success",
+  message: "",
+  data: {
+	course:{
+	    courseId: 76,
+        courseType: "VIP",
+        courseMeth: "LIVE",
+        categoryId: 75,
+        schoolId: "test",
+        title: "语文一年级",
+        subtitle: "语文一年级上学期",
+        summary: "概要",
+        keyword1: "语文",
+        keyword2: "小学",
+        keyword3: "",
+        objectives: "教学目标",
+        audiences: "目标学员",
+        requirements: "",
+        coverImage: "https://res.wangxiaoyun.net/image/287x180/201704/c0cf3f220c474d7bb19ef55719bea124.png",
+        promoImage: null,
+        promoVideoId: null,
+        price: 0,
+        validity: 0,
+        isFree: "Y",
+        isFreeVip: "Y",
+        isRecommend: "N",
+        recommendTime: 1478167919000,
+        isBarrageEnabled: "Y",
+        isTickerEnabled: "Y",
+        tickerContent: "微网校",
+        isRoyaltyEnabled: "N",
+        channelId: 0,
+        channelSecretkey: null,
+        status: "published",
+        userId: "iuhqvcn6",
+        createdTime: 1475310831000,
+        publishedTime: null,
+        lastModified: 1492149794000,
+        studentCount: 12,
+        reviewCount: 0,
+        ratingScore: 0,
+        categoryName: "语文",
+        teacherId: "iv38g5ck",
+        teacherName: "gg",
+        teacherAvatar: "https://res.wangxiaoyun.net/assets/images/avatars/10avatar.jpg",
+        channelPasswd: "",
+        description: "<p>课程介绍</p>"
+	},
+	"liveUserId": "deeterert"
+  }
+}
+````
+
+* 字段说明
+
+|字段|	说明|
+|----|------|
+|code|	响应代码|
+|status|	响应状态|
+|message|	响应信息|
+|data|	返回数据|
+| data.course | 课程信息，参考上面描述 |
+| data.liveUserId | 保利威直播用户Id |
