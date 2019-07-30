@@ -66,7 +66,8 @@
 	  courseList: [
 	    {
 	  	  courseId: "1",
-	  	  title: "英语音标从入门到精通"
+	  	  title: "英语音标从入门到精通",
+	  	  status: "published"
 	    }
 	  ]
   	}
@@ -95,3 +96,4 @@
 |data.user.courseList	|教师所教课程|
 |data.user.courseList\[index\].courseId	|课程ID|
 |data.user.courseList\[index\].title	|课程标题|
+|data.user.courseList\[index\].status	|课程状态（草稿：draft，已发布：published，已隐藏：hidden，已删除：deleted）|

@@ -51,7 +51,7 @@
      
            String paramBase64 = Base64Utils.encodeToString(jsonObject.toString().getBytes());
            String sign = apiKey + paramBase64 +apiKey;
-           return paramBase64 + "DEWX_FLAG" + MD5Utils.getMD5String(sign).toUpperCase();
+           return URLEncoder.encode(paramBase64 + "DEWX_FLAG" + MD5Utils.getMD5String(sign).toUpperCase(),"UTF-8");
   
   * 可通过对paramBase64的Base64解密获得userId和userName，用于第三方系统使用; 
   * 可用secretKey + paramBase64 MD5加密判断是否来自网校。
